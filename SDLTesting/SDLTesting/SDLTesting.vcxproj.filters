@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{7cd1467a-3629-4a79-935a-5d1cebb2380f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Prerequisites">
+      <UniqueIdentifier>{f2e39fa8-f07a-4513-98b1-1cba4b564495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BaseApp">
+      <UniqueIdentifier>{d2381a89-f5e1-4a3c-a034-9ac712f83207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{4b08ad0c-0b1b-4d19-9ea8-472de7d88f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseApp">
+      <UniqueIdentifier>{13c5b60b-961a-405a-8cdd-ace303ef9f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\buRenderer">
+      <UniqueIdentifier>{1956bb59-2492-480a-acca-69989309232f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\buRenderer">
+      <UniqueIdentifier>{9f7b978b-4905-4a51-b79f-119f71e6fc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture2D">
+      <UniqueIdentifier>{185b9050-5966-405e-9826-281c1156143e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture2D">
+      <UniqueIdentifier>{0c095a6d-17d7-4995-a030-8350b1c107ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Baseapp.cpp">
+      <Filter>Source Files\BaseApp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buRenderer.cpp">
+      <Filter>Source Files\buRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buTexture2D.cpp">
+      <Filter>Source Files\Texture2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\buWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Prerequisites.h">
+      <Filter>Header Files\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Baseapp.h">
+      <Filter>Header Files\BaseApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buRenderer.h">
+      <Filter>Header Files\buRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buTexture2D.h">
+      <Filter>Header Files\Texture2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
